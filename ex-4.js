@@ -1,10 +1,9 @@
-let restaurantNames = ["KFC", "MOMO PARADISE", "Nabezo"];
+// Exercise #4: Displaying Restaurant Name
+let restaurants = ["KFC", "MOMO PARADISE", "Nabezo"];
+let newRestaurants = [];
+// Start coding here
 
-let newRestaurantNames = [];
-
-for (let restaurantName of restaurantNames) {
-  let newRestaurantName = "Restaurant Name: " + restaurantName;
-
-  newRestaurantNames.push(newRestaurantName);
+for (let nameRestaurant of restaurants) {
+  newRestaurants += "Restaurant Name: " + nameRestaurant + ", ";
 }
-console.log(newRestaurantNames);
+console.log(newRestaurants);
